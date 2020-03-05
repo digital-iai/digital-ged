@@ -12,7 +12,7 @@ class Users extends React.Component {
     return (
       <div className="animated fadeIn">
         <Row>
-          <Col xl={6}>
+          <Col xl={12}>
             <Card>
               <CardHeader>
                 Utilisateurs enregistrés

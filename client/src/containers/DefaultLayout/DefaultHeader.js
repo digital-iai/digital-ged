@@ -27,18 +27,6 @@ class DefaultHeader extends Component {
           minimized={{ src: sygnet, width: 30, height: 30, alt: 'CoreUI Logo' }}
         />
         <AppSidebarToggler className="d-md-down-none" display="lg" />
-
-        <Nav className="d-md-down-none" navbar>
-          <NavItem className="px-3">
-            <NavLink to="/accueil" className="nav-link" >Accueil</NavLink>
-          </NavItem>
-          <NavItem className="px-3">
-            <Link to="/utilisateurs" className="nav-link">Utilisateurs</Link>
-          </NavItem>
-          <NavItem className="px-3">
-            <NavLink to="/profil" className="nav-link">Profil</NavLink>
-          </NavItem>
-        </Nav>
         <Nav className="ml-auto" navbar>
           <NavItem className="d-md-down-none">
             <NavLink to="#" className="nav-link"><i className="icon-bell"></i><Badge pill color="danger">5</Badge></NavLink>
