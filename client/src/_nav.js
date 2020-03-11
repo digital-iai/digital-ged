@@ -16,10 +16,10 @@ export default {
     {
       name: 'Utilisateurs',
       url: '/utilisateurs',
-      icon: 'icon-people'
-      // children: [        
+      icon: 'icon-people',
+      // children: [                
       // ],
-    },
+    },    
     {
       name: 'Coursiers',
       url: '/coursiers',
@@ -47,12 +47,12 @@ export default {
       children: [
         {
           name: 'Profil',
-          url: 'parametres/profil',
+          url: '/parametres/profil',
           icon: 'icon-user',
         },
         {
           name: 'Departement',
-          url: 'parametres/departement',
+          url: '/parametres/departement',
           icon: 'icon-layers',
         }
       ],

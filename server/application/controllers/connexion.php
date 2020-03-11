@@ -6,12 +6,7 @@ class Connexion extends CI_Controller {
 
 	public function index()
 	{
-		if($this->session->userdata('user')){
-			redirect('connexion/home');
-		}
-		else{
-			$this->load->view('connexion');
-		}
+		
 	}
 
 		public function seconnecter(){ // fonction qui permet la connexion
