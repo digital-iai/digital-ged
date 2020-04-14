@@ -12,7 +12,7 @@ export default {
       name: 'Accueil',
       url: '/accueil',
       icon: 'icon-home'      
-    },    
+    },     
     {
       name: 'Utilisateurs',
       url: '/utilisateurs',
